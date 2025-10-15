@@ -16,3 +16,12 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+import math
+radius = float(input("what is the radius:"))
+hight = float(input("what is the hight:"))
+cSquare = hight**2+radius**2
+slant = math.sqrt(cSquare)
+pi_value = math.pi
+
+sa = pi_value*(radius**2)+pi_value*radius*slant
+print(f"The surface area is {sa}")

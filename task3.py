@@ -12,3 +12,16 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+
+a = int(input("What is the A?:"))
+b = int(input("What is the B?:"))
+c = int(input("What is the C?:"))
+
+#ax + b = c
+# /a -b
+
+firststep = c-b
+answer = firststep/a
+
+print(f"X={answer}")

@@ -13,3 +13,15 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+
+
+Volume = float(input("What is the Volume of the sphere:"))
+
+Volumecuberoot = float(Volume** 1.0/3)
+
+import math
+pi_value = math.pi
+
+answer = (Volumecuberoot/pi_value/(4/3))
+
+print(f"{answer}")
